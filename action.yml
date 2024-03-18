@@ -1,9 +1,9 @@
 name: "Podcast Generator"
 author: "Ray Villalobos"
-description: "Generates a podcast feed from a folder of MP3 files"
+description: "Generates a podcast feed for a podcast from YAML file"
 runs:
   using: "docker"
-  main: "Dockerfile"
+  image: "Dockerfile"
 branding:
   icon: "git-branch"
   color: "red"
